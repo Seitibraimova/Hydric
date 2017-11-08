@@ -1,0 +1,77 @@
+@font-face {
+  font-family: MyriadPro;
+  src: url('../fonts/MyriadPro-Regular.otf') format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: MyriadPro;
+  src: url('../fonts/MyriadPro-Bold.otf') format("opentype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: MyriadPro;
+  src: url('../fonts/MyriadPro-Semibold.otf') format("opentype");
+  font-weight: 600;
+}
+
+body {
+	color: #737070;
+	font-family: 'MyriadPro', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+.container {
+	max-width: 980px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.center-position-gl {
+	width: 75%;
+	margin: 0 auto;
+	padding: 110px 0;
+	text-align: center;
+}
+
+.block-white-gl {
+	color: #ffffff;
+}
+
+.section-title-gl {
+	margin: 0 0 20px 0;
+	font-size: 47px;
+	line-height: 47px;
+	font-weight: 400;
+}
+
+.title-dark-gl {
+	color: #4e4e4e;
+}
+
+.section-title-gl p {
+	margin: 0;
+	padding-bottom: 11px;
+}
+
+.btn-green {
+	background-color: #71ae5a;
+}
+
+.btn:hover,
+.top-navigation a:hover,
+.footer-navigation a:hover {
+	opacity: 0.8;
+	transform: scaleX(1.1);
+}
+
+h2 {
+	margin: 0;
+}

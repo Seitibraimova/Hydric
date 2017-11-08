@@ -1,0 +1,375 @@
+.clearfix::after,
+.hidric-header::after,
+.tarrifs-list::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.header-index {
+	padding-top: 40px;
+	background: #4b794d url('../img/pic-bg.jpg');
+	background-size: cover;
+}
+
+.logo {
+	float: left;
+	position: relative;
+	margin-right: 74px;
+	padding-left: 68px;
+} 
+
+.logo::before {
+	content: "";
+	position: absolute;
+	top: 4px;
+	left: 0;
+	width: 56px;
+	height: 33px;
+	background: url('../img/watermalon-slice.png')no-repeat;
+}
+
+.logo-hydric {
+	font-size: 37px;
+	line-height: 51px;
+	font-weight: 700;
+}
+
+.top-navigation {
+	float: right;
+}
+
+.top-navigation a {
+	display: inline-block;
+	padding-right: 35px;
+	font-size: 21px;
+	font-weight: 600;
+	vertical-align: middle;
+}
+
+.top-navigation .btn-buy {
+	padding: 5px 15px;
+	border: 2px solid white;
+}
+
+.watermelon {
+	width: 252px;
+	height: 213px;
+}
+
+.watermelon-cutted {
+	width: 250px;
+	height: 243px;
+	margin-top: 64px;
+}
+
+.pure-health {
+	background-color: #2b342b;
+}
+
+.pure-health-percentage {
+	position: relative;
+	display: inline-block;
+	padding-top: 36px;
+}
+
+.watermelon-percentage {
+	width: 279px;
+	height: 230px;
+}
+
+.component,
+.line {
+	position: absolute;
+}
+
+.component {
+	font-size: 22px;
+	font-weight: 400;
+	white-space: nowrap;
+}
+
+.line-calories {
+	background: url("../pic/calories.png");
+	width: 205px;
+	height: 34px;
+	top: 129px;
+    left: -163px;
+}
+
+.calories {
+	top: 4px;
+    left: 0;
+}
+
+.line-fat {
+	background: url("../pic/fat.png");
+	width: 198px;
+	height: 21px;
+	top: 240px;
+    left: -50px;
+}
+
+.fat {
+	top: -18px;
+    left: 0;
+}
+
+.line-protein {
+	background: url("../pic/protein.png");
+	width: 214px;
+	height: 62px;
+	top: 78px;
+    right: -164px;
+}
+
+.protein {
+	top: -24px;
+    right: 0;
+}
+
+.line-water {
+	background: url("../pic/water.png");
+	width: 181px;
+	height: 23px;
+	top: 173px;
+    right: -106px;
+}
+
+.water {
+	top: -13px;
+    right: 0;
+}
+
+
+.tariffs {
+	background-color: #e9ede9;
+}
+
+.tarrifs-list {
+	padding-bottom: 110px;
+}
+
+.tarrif-item {
+	float: left;
+	width: 30.8%;
+	font-size: 32px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #d3cfcf;
+}
+
+.pro {
+	margin: 0 25px;
+}
+
+.tarrif-item-title {
+	padding: 25px 0 13px 0;
+	color: #7d7b7b;
+	font-size: 33px;
+	line-height: 40px;
+	font-weight: 600;
+}
+
+.title-part2 {
+	color: #afacac;
+}
+
+.start {
+	display: block;
+	color: #4e4e4e;
+	padding: 15px 0 13px 0;
+}
+
+.price {
+	display: block;
+	color: #b38e48;
+	padding: 12px 0 25px 0; 
+}
+
+.btn-details {
+	display: inline-block;
+	padding: 10px 20px;
+	margin-bottom: 31px;
+	color: white;
+	font-size: 16px;
+	line-height: 18px;
+	border-radius: 13px;
+	background-color: #71ae5a;
+}
+
+footer {
+	background-color: #e9ede9;
+}
+
+.footer-navigation {
+	position: relative;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: 400;
+}
+
+.footer-navigation a {
+	color: #747373;
+	padding-right: 40px;
+}
+
+.btn-to-top {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	background-color:  #71ae5a;
+}
+
+.btn-to-top::after {
+	content: "";
+	position: absolute;
+	top: 22px;
+    left: 14px;
+	width: 23px;
+	height: 17px;
+	transform: translateY(-50%);
+	background: url('../pic/triangle.png');
+}
+
+.copyright {
+	padding-bottom: 102px;
+	font-size: 18px;
+	color: #958f8f;
+}
+
+.menu-drop-down, #top-navigation-drop-down, #footer-navigation-drop-down {
+	display: none;
+}
+
+.pure-health-percentage div span::before {
+	display: none;
+}
+
+@media screen and (max-width: 840px) {
+	
+	.logo,
+	.top-navigation {
+		float: none;
+	} 
+
+	.menu-drop-down {
+		position: relative;
+		font-size: 22px;
+		font-weight: 600;
+    	cursor: pointer;
+	}
+	
+	footer .menu-drop-down {
+		color: #747373;
+	}
+
+	.menu a, 
+	.menu-drop-down,
+	.top-navigation .btn-buy {
+		display: block;
+		max-width: 130px;
+		text-align: left;
+		padding: 12px 15px 12px 30px;
+		margin-left: 10px;
+	}
+
+	.menu-drop-down::before {
+		content: '\2630';
+		position: absolute;
+		left: 0; 
+		top: 10px;
+	}
+
+	header .menu-drop-down {
+		top: 0;
+	}
+
+	footer .menu-drop-down {
+		top: 0;
+	}
+
+	.top-navigation .btn-buy {
+		border: none;
+	}
+
+	.menu a:hover,
+	.top-navigation .btn-buy:hover  {
+		transform: none;
+		opacity: 0.5;
+	}
+
+	#top-navigation-drop-down + .menu,
+	#footer-navigation-drop-down + .menu {
+		display: none;
+	} 
+
+	#top-navigation-drop-down:checked + .menu,
+	#footer-navigation-drop-down:checked + .menu {
+		display: block;
+	}  
+
+	#inp + .menu,
+	#footer-inp + .menu,
+	.footer-navigation .btn-to-top {
+		display: none;
+	}
+
+	#inp:checked + .menu,
+	#footer-inp:checked + .menu {
+		display: block;
+	}
+
+	.pure-health-percentage div[class^="line"] {
+		position: static;
+		display: block;
+		background: none;
+		width: auto;
+		height: auto;
+	}
+
+	.pure-health-percentage div[class^="line"] span {
+		position: relative;
+		margin: 5px 0;
+	}
+
+	.pure-health-percentage div span::before {
+		display: block;
+		content: '\2714';
+		position: absolute;
+		left: -25px; 
+		top: 0;
+		color: #43b343;
+	}
+
+	.fat {
+    top: 84px;
+    left: 0;
+	}
+
+	.tarrif-item {
+		float: none;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.tarrifs-list .pro {
+		margin: 25px auto;
+	}
+
+	.copyright {
+    padding-bottom: 50px;
+	}
+
+
+}
+
+@media screen and (max-width: 480px) {
+	.tarrif-item {
+		width: 95%;
+	}
+}
